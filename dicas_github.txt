@@ -16,10 +16,15 @@ Para adicionar todos os arquivos a serem comitados:
 
 git add <nome_do_arquivo.extensao> <.> (ou . para adicionar tudo)
 git status (para conferir que deu tudo certo)
-git commit -a - m "mensagem ao comittar"
+git commit -a -m "mensagem ao comittar"
 git push
 
 ---
 Para atualizar o seu repo:
 
 git pull
+
+---
+Para remover um arquivo:
+
+git rm arquivo.extensao 
